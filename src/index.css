@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 270 60% 4%;
+		--foreground: 0 0% 100%;
+		--primary: 186 100% 42%;
+		--primary-foreground: 0 0% 100%;
+		--secondary: 270 40% 18%;
+		--secondary-foreground: 0 0% 100%;
+		--destructive: 0 75% 50%;
+		--destructive-foreground: 0 0% 100%;
+		--muted: 270 30% 15%;
+		--muted-foreground: 270 15% 70%;
+		--accent: 270 40% 22%;
+		--accent-foreground: 0 0% 100%;
+		--border: 270 30% 25%;
+		--input: 270 30% 25%;
+		--ring: 186 100% 50%;
+		--radius: 0.6rem;
+	}
+
+	html,
+	body,
+	#root {
+		min-height: 100%;
+	}
+
+	body {
+		@apply bg-[#0a0014] text-white font-sans antialiased;
+		-webkit-tap-highlight-color: transparent;
+	}
+}
+
+@layer utilities {
+	.text-glow-cyan {
+		text-shadow: 0 0 12px rgba(34, 211, 238, 0.8), 0 0 32px rgba(34, 211, 238, 0.4);
+	}
+	.text-glow-magenta {
+		text-shadow: 0 0 12px rgba(255, 0, 230, 0.8), 0 0 32px rgba(255, 0, 230, 0.4);
+	}
+	.cyber-grid {
+		background-image: linear-gradient(rgba(34, 211, 238, 0.08) 1px, transparent 1px),
+			linear-gradient(90deg, rgba(34, 211, 238, 0.08) 1px, transparent 1px);
+		background-size: 40px 40px;
+	}
+	/* Chiffres lisibles (le zéro barré d'Orbitron prête à confusion). */
+	.font-num {
+		font-family: 'Rajdhani', system-ui, sans-serif;
+		font-variant-numeric: tabular-nums;
+	}
+	.no-select {
+		user-select: none;
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
+	}
+}
