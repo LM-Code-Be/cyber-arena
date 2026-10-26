@@ -14,11 +14,14 @@
 
 Développé par **Michael — [LM-Code](https://lm-code.be)**
 
-📖 **[Lire le tutoriel complet sur lm-code.be](https://lm-code.be/jeu-de-combat-react-canvas/)**
+[![Voir la démo sur YouTube](https://img.shields.io/badge/▶_Voir_la_démo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/i4ffPtRA5Tk)
+[![Lire le tutoriel](https://img.shields.io/badge/📖_Lire_le_tutoriel-lm--code.be-22d3ee?style=for-the-badge)](https://lm-code.be/jeu-de-combat-react-canvas/)
 
 </div>
 
-![Cyber Arena Fighter — combat](docs/screenshots/11-combat.png)
+[![Cyber Arena Fighter — voir la démo vidéo](docs/screenshots/11-combat.png)](https://youtu.be/i4ffPtRA5Tk)
+
+<p align="center"><i>Cliquez sur l'image pour voir la démo complète sur YouTube.</i></p>
 
 ---
 
